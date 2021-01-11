@@ -39,4 +39,3 @@ class Solution(object):
         nums_k = nums[:len(nums)-k]
         nums[:k] = nums[len(nums)-k:]
         nums[k:] = nums_k
-
